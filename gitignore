@@ -1,0 +1,27 @@
+# Database (too large for GitHub — 404 MB)
+notebooks/inventory.db
+
+# Trained models (regenerate by running train.py)
+notebooks/*.pkl
+freight_cost_prediction/models/
+invoice_flagging/models/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Evaluation plots (generated at runtime)
+evaluation_plots/
